@@ -59,7 +59,7 @@ with st.sidebar:
     st.caption("Designed by 柏澔 | Social Psychology Quiz")
 
 # --- 3. 標題區 ---
-st.title("🎓 社會心理學：名詞大會考")
+st.title("🎓 社會心理學：名詞解釋大會考")
 st.markdown("請根據 **「名詞」**，選出正確的 **「解釋」**。")
 st.progress(0) # 裝飾用的進度條，增加儀式感
 
