@@ -11,7 +11,7 @@ st.write("請根據題目顯示的「名詞」，選出正確的「解釋」。"
 @st.cache_data
 def load_data():
     # 讀取 CSV，如果遇到編碼問題可以試試 encoding='utf-8'
-    df = pd.read_csv("data.csv")
+    df = pd.read_csv("scusocpsy.csv")
     return df
 
 try:
