@@ -4,7 +4,7 @@ import random
 
 # --- 0. 網站設定 (必須放在第一行) ---
 st.set_page_config(
-    page_title="社心名詞大會考",
+    page_title="社心名詞解釋大會考",
     page_icon="🎓",
     layout="centered", # 設為 centered 會讓內容集中在中間，比較像閱讀文章，質感較好
     initial_sidebar_state="expanded"
