@@ -28,7 +28,7 @@ st.markdown("""
 # --- 1. 讀取資料 ---
 @st.cache_data
 def load_data():
-    df = pd.read_csv("data.csv")
+    df = pd.read_csv("scusocpsy.csv")
     return df
 
 try:
